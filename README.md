@@ -18,14 +18,6 @@ Tech Stack:
 - nltk
 - dotenv
 
-Project Structure:
-MusicRecommender/
-│
-├── recommender.py             # Main recommender class
-├── similarity_model.py        # Similarity logic
-├── test_music_recommender.py  # Test script
-├── .env                       # API keys (not included)
-└── README.md                  # This file
 
 Why It Stopped Working: As of mid-2025, Spotify has restricted access to song audio features unless you use OAuth scopes that require user login. This is infeasible for batch or backend recommendation systems. Even when properly authenticated, requests often result in 401/403 errors.
 
